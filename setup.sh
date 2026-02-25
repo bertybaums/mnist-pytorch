@@ -2,9 +2,9 @@
 # Run once to create the virtual environment and install dependencies.
 # Usage: bash setup.sh
 
+source /etc/profile
 set -e
 
-source /etc/profile
 module load python/3.11.11
 module load cuda/12.8
 

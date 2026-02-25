@@ -8,9 +8,9 @@
 #SBATCH --output=logs/%j_mnist.out
 #SBATCH --error=logs/%j_mnist.err
 
+source /etc/profile
 set -e
 
-source /etc/profile
 module load python/3.11.11
 module load cuda/12.8
 
