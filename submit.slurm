@@ -10,6 +10,7 @@
 
 set -e
 
+source /etc/profile
 module load python/3.11.11
 module load cuda/12.8
 
